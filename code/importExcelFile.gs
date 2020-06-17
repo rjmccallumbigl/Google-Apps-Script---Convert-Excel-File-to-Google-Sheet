@@ -11,7 +11,7 @@
 
 function importExcelFile(id){
   
-  var id = id || "1iuDU0QUxJfsh4uDH3PTUH3ca64P78o5_";
+  var id = id;
   var currentDate = new Date();
   var file = DriveApp.getFileById(id);  
   var sheet = SpreadsheetApp.getActiveSpreadsheet().insertSheet();

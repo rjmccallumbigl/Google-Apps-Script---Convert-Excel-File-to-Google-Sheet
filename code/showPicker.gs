@@ -13,7 +13,7 @@ function onOpen() {
  * https://www.labnol.org/code/20039-google-picker-with-apps-script
  */
 function showPicker() {
-  var html = HtmlService.createHtmlOutputFromFile('Picker.html')
+  var html = HtmlService.createHtmlOutputFromFile('code/Picker.html')
       .setWidth(600)
       .setHeight(425)
       .setSandboxMode(HtmlService.SandboxMode.IFRAME);
